@@ -164,6 +164,8 @@ a:hover {
 /* product scroller */
 .citrusSpotlight__productScroller {
   margin: 20px auto;
+  width: 100%;
+  max-width: 1250px;
 }
 .citrusSpotlight__Products {
   margin-top: 20px;
@@ -223,7 +225,7 @@ a:hover {
   line-clamp: 2;
   -webkit-box-orient: vertical;
   max-height: 4em;
-  margin-bottom: 24px;
+  margin-bottom: 17px;
 }
 
 .citrusSpotlight__productCTA {
@@ -247,7 +249,7 @@ a:hover {
   min-width: 170px;
   line-height: 52px;
   background: #001952;
-  font-family: "petcoCircularTT-Bold", arial !important;
+  font-family: "PetcoCircularTT-Bold", arial !important;
   font-size: 16px;
   font-weight: 900;
   text-align: center;
@@ -267,22 +269,23 @@ a:hover {
 .citrusSpotlight__FAQ {
   width: 100%;
   max-width: 1150px;
-  margin: auto;
+  margin: 30px auto;
 }
 .citrusSpotlight__faqRow {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 27% 70%;
   grid-gap: 30px;
-  align-items: center;
+  /* align-items: center; */
 }
 .citrusSpotlight__faqImage-box img {
   margin-bottom: 16px;
   max-width: 100%;
   object-fit: contain;
 }
-
-.citrusSpotlight__faqTitle h1 {
-  font-family: "petcoCircularTT-Bold", arial !important;
+.citrusSpotlight__faqRight {
+  margin-top: 32px;
+}
+.citrusSpotlight__faqTitle h2 {
   font-size: 24px;
   line-height: 30px;
   font-weight: 900;
@@ -293,7 +296,93 @@ a:hover {
   line-height: 20px;
   font-weight: 400;
   padding-bottom: 18px;
-  border-bottom: 1px solid #001952;
+}
+/* accordion style */
+.citrusSpotlight__accordion {
+  border: 1px solid #001952;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+.citrusSpotlight__accordion-item {
+  border-top: 1px solid #001952;
+}
+.citrusSpotlight__accordion-item:first-child {
+  border-top: 0;
+}
+
+.citrusSpotlight__accordion-title {
+  padding: 30px 10px 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* line-height: 62px; */
+}
+.citrusSpotlight__accordion-title h3 {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #001952;
+}
+.citrusSpotlight__accordion-icon {
+  right: 10px;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-size: 50px;
+  font-weight: 700;
+  color: #001952;
+  cursor: pointer;
+}
+
+.citrusSpotlight__accordion-content {
+  padding: 0 10px 10px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 16px;
+}
+.citrusSpotlight__accordion-content p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+.citrusSpotlight__accordion-item.active .citrusSpotlight__accordion-content {
+  height: max-content;
+  margin-bottom: 10px;
+}
+
+.citrusSpotlight__accordion-icon:before {
+  content: "+";
+}
+
+.citrusSpotlight__accordion-item.active
+  .citrusSpotlight__accordion-icon:before {
+  content: "-";
+}
+.citrusSpotlight__list {
+  list-style: disc;
+  margin: 10px auto 0px;
+  padding-left: 20px;
+}
+.citrusSpotlight__list li {
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000;
+}
+.citrusSpotlight__disclaimer.spotlightFaq-dis {
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  text-align: left;
 }
 @media all and (max-width: 768px) {
   .citrusSpotlight__desktop-version {
