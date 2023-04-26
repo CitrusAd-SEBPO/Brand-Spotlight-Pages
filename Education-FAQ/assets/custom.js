@@ -17,10 +17,10 @@ function advanceArrows(idx) {
     omitEnd: true,
     breakpoints: {
       375: {
-        perPage: 1,
+        perPage: 2,
       },
       576: {
-        perPage: 1,
+        perPage: 2,
       },
       991: {
         perPage: 3,
