@@ -507,4 +507,15 @@ a:hover {
   .citrusSpotlight__disclaimer.spotlightFaq-dis {
     padding-left: 10px;
   }
+
+  /* section cta style */
+  .citrusSpotlight__sectionCTA a {
+    min-width: max-content;
+    line-height: 32px;
+    background: none;
+    border: none;
+    color: #001952;
+    text-transform: capitalize;
+    text-decoration: underline;
+  }
 }

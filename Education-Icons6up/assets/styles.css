@@ -330,7 +330,7 @@ a:hover {
     line-height: 17px;
   }
   .citrusSpotlight__category-row:first-child {
-    margin-left: 29px;
+    margin-left: 15px;
   }
 }
 @media all and (min-width: 769px) and (max-width: 921px) {
@@ -351,7 +351,7 @@ a:hover {
     line-height: 17px;
   }
   .citrusSpotlight__category-row:first-child {
-    margin-left: 29px;
+    margin-left: 15px;
   }
 }
 @media all and (min-width: 476px) and (max-width: 768px) {
@@ -424,7 +424,20 @@ a:hover {
     color: #fff;
   }
   /* icon or category */
+  .citrusSpotlight__category {
+    margin-bottom: 25px;
+  }
   .citrusSpotlight__category-row:first-child {
-    margin-left: 29px;
+    margin-left: 15px;
+  }
+  /* section cta style */
+  .citrusSpotlight__sectionCTA a {
+    min-width: max-content;
+    line-height: 32px;
+    background: none;
+    border: none;
+    color: #001952;
+    text-transform: capitalize;
+    text-decoration: underline;
   }
 }
