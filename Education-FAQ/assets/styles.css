@@ -454,7 +454,7 @@ a:hover {
   }
   /* hero banner */
   .citrusSpotlight__heroImage-copy {
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: column;
   }
