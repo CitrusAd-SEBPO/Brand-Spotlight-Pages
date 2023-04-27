@@ -16,19 +16,24 @@ function advanceArrows(idx) {
     omitEnd: true,
     breakpoints: {
       375: {
-        perPage: 2,
+        arrows: false,
+        perPage: 1.75,
       },
       576: {
-        perPage: 2,
+        arrows: false,
+        perPage: 1.75,
       },
       991: {
-        perPage: 3,
+        arrows: false,
+        perPage: 2.75,
       },
       992: {
-        perPage: 3,
+        arrows: false,
+        perPage: 3.75,
       },
       1024: {
-        perPage: 6,
+        arrows: false,
+        perPage: 4.75,
       },
       1200: {
         perPage: 6,
