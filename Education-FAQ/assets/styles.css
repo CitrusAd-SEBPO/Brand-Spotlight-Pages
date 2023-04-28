@@ -99,12 +99,12 @@ a:hover {
 }
 .spotlightLogo img {
   width: 100%;
-  max-width: 221px;
+  max-width: 204px;
 }
 .hero-left {
   display: flex;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 40px;
 }
 .spotlightCopy h1 {
   color: #fff;
@@ -126,9 +126,10 @@ a:hover {
   text-align: center;
 }
 .hero-rightCTA a {
+  font-family: "PetcoCircularTT-Bold", arial !important;
   display: block;
   min-width: 127px;
-  line-height: 47px;
+  line-height: 50px;
   font-size: 13px;
   font-weight: 900;
   color: #fff;
@@ -331,7 +332,7 @@ a:hover {
 }
 
 .citrusSpotlight__accordion-content {
-  padding: 0 10px 10px;
+  padding: 0 10px 20px;
   height: 50px;
   display: flex;
   justify-content: space-between;
@@ -391,6 +392,9 @@ a:hover {
     font-size: 17px;
     line-height: 17px;
   }
+  .citrusSpotlight__FAQ {
+    width: 94%;
+  }
 }
 @media all and (min-width: 769px) and (max-width: 921px) {
   .citrusSpotlight__heroImage-copy {
@@ -421,28 +425,6 @@ a:hover {
   }
   .citrusSpotlight__disclaimer.spotlightFaq-dis {
     padding-left: 10px;
-  }
-}
-
-@media all and (min-width: 476px) and (max-width: 768px) {
-  /* hero banner */
-  .citrusSpotlight__heroImage-copy .citrusSpotlight__mobile-version {
-    display: none;
-  }
-  .citrusSpotlight__heroImage-copy {
-    width: 90%;
-    margin: auto 5%;
-  }
-  .spotlightCopy h1 {
-    font-size: 28px;
-  }
-  .spotlightCopy h1 span {
-    font-size: 60px;
-  }
-  .spotlightCopy p {
-    margin-top: 10px;
-    font-size: 16px;
-    line-height: 17px;
   }
 }
 @media all and (max-width: 768px) {
@@ -517,5 +499,27 @@ a:hover {
     color: #001952;
     text-transform: capitalize;
     text-decoration: underline;
+  }
+}
+
+@media all and (min-width: 476px) and (max-width: 768px) {
+  /* hero banner */
+  .citrusSpotlight__heroImage-copy .citrusSpotlight__mobile-version {
+    display: none;
+  }
+  .citrusSpotlight__heroImage-copy {
+    width: 90%;
+    margin: auto 5%;
+  }
+  .spotlightCopy h1 {
+    font-size: 28px;
+  }
+  .spotlightCopy h1 span {
+    font-size: 60px;
+  }
+  .spotlightCopy p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 17px;
   }
 }

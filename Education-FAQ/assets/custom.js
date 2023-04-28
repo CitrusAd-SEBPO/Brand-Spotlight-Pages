@@ -24,16 +24,13 @@ function advanceArrows(idx) {
         perPage: 1.75,
       },
       991: {
-        arrows: false,
-        perPage: 2.75,
+        perPage: 4,
       },
       992: {
-        arrows: false,
-        perPage: 3.75,
+        perPage: 4,
       },
       1024: {
-        arrows: false,
-        perPage: 4.75,
+        perPage: 5,
       },
       1200: {
         perPage: 6,
