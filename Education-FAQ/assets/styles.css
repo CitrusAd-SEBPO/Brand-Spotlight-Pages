@@ -264,7 +264,8 @@ a:hover {
 .citrusSpotlight__FAQ {
   width: 100%;
   max-width: 1150px;
-  margin: 30px auto;
+  margin: 0px auto 30px;
+  padding-top: 30px;
 }
 .citrusSpotlight__faqRow {
   display: grid;
