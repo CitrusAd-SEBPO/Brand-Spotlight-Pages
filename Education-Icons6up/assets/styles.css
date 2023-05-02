@@ -26,6 +26,12 @@
 }
 
 /* default css */
+header img,
+footer img {
+  width: 100%;
+  /* max-width: 1440px; */
+  margin: auto;
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -135,7 +141,7 @@ a:hover {
   display: block;
   min-width: 127px;
   line-height: 50px;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 900;
   color: #fff;
   background: #00205b;
