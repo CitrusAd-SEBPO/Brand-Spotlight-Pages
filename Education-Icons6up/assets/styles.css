@@ -368,6 +368,10 @@ a:hover {
   .citrusSpotlight__mobile-version {
     display: block;
   }
+  .citrusSpotlight__sectionTitle,
+  .citrusSpotlight__faqTitle h2 {
+    font-size: 18px;
+  }
   /* hero banner */
   .citrusSpotlight__heroImage-copy {
     justify-content: center;
