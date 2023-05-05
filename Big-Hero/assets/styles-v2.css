@@ -158,7 +158,7 @@ a:hover {
 }
 .citrusSpotlight__productContainer {
   width: 100%;
-  max-width: 1145px;
+  max-width: 1118px;
   margin: auto;
   overflow-x: auto;
 }
@@ -166,10 +166,10 @@ a:hover {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  column-gap: 25px;
+  column-gap: 16px;
 }
 .citrusSpotlight__card {
-  width: 361px;
+  width: 547px;
   max-width: 100%;
   background: #d9d9d9;
   border: 2px solid #00205b;
