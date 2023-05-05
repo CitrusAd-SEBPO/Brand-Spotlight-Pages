@@ -249,6 +249,14 @@ a:hover {
   .citrusSpotlight__disclaimer {
     margin-top: 10px;
   }
+
+  .citrusSpotlight__row {
+    column-gap: 0;
+  }
+  .citrusSpotlight__card {
+    margin: auto;
+    width: 96%;
+  }
 }
 @media all and (min-width: 769px) and (max-width: 921px) {
   .citrusSpotlight__heroImage-copy {
@@ -274,6 +282,10 @@ a:hover {
   }
   .citrusSpotlight__disclaimer {
     margin-top: 10px;
+  }
+  .citrusSpotlight__card {
+    margin: auto;
+    width: 96%;
   }
 }
 @media all and (max-width: 768px) {
@@ -356,5 +368,13 @@ a:hover {
     margin-bottom: 10px;
     font-size: 28px;
     line-height: 34px;
+  }
+}
+@media all and (min-width: 600px) and (max-width: 768px) {
+  .citrusSpotlight__row {
+    justify-content: center;
+  }
+  .citrusSpotlight__row:first-child {
+    margin-left: 0;
   }
 }
