@@ -1,0 +1,359 @@
+/* font face add */
+/*
+ * Legal Disclaimer
+ *
+ * These web fonts are licensed exclusively for use on the following:
+ * All domains belonging to Petco
+ *
+ * It is strictly forbidden to download or use these fonts on any other website domain or media.
+ *
+ * While the @font-face statements below may be modified by the client, this
+ * disclaimer may not be removed.
+ *
+ * Lineto.com, 2020
+ */
+
+@font-face {
+  font-family: PetcoCircularTT-Regular;
+  src: url(fonts/PetcoCircularTT-Regular.woff2) format("woff2"),
+    url(fonts/PetcoCircularTT-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: PetcoCircularTT-Bold;
+  src: url(fonts/PetcoCircularTT-Bold.woff2) format("woff2"),
+    url(fonts/PetcoCircularTT-Bold.woff) format("woff");
+}
+
+/* default css */
+header img,
+footer img {
+  width: 100%;
+  /* max-width: 1440px; */
+  margin: auto;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  line-height: auto;
+  color: #000;
+}
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  line-height: auto;
+  color: #000;
+}
+a {
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+}
+/* common styling */
+/* overflow scroll bar hide */
+.citrusSpotlight__productContainer::-webkit-scrollbar,
+.citrusSpotlight__row::-webkit-scrollbar {
+  display: none;
+}
+.citrusSpotlight__wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+.citrusSpotlight__desktop-version {
+  display: block;
+}
+.citrusSpotlight__mobile-version {
+  display: none;
+}
+
+/* hero banner */
+.citrusSpotlight__heroContainer {
+  position: relative;
+}
+.citrusSpotlight__heroImage-box img {
+  width: 100%;
+  max-width: 1440px;
+}
+.citrusSpotlight__heroImage-copy {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto 5%;
+}
+.spotlightLogo img {
+  width: 100%;
+  max-width: 221px;
+}
+.spotlightCopy h1 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 900;
+  color: #fff;
+}
+.spotlightCopy h1 span {
+  display: block;
+  color: #6af4a8;
+  font-size: 80px;
+  line-height: 98px;
+  font-weight: 900;
+}
+.spotlightCopy p {
+  margin-bottom: 15px;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 700;
+  color: #fff;
+}
+.hero-rightCTA a {
+  display: block;
+  width: 171px;
+  /* height: 50px; */
+  background: #fff;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: 900;
+  text-align: center;
+  color: #00205b;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  transition: background 1s ease;
+}
+.hero-rightCTA a:hover {
+  background: #00205b;
+  color: #fff;
+}
+.citrusSpotlight__disclaimer {
+  margin-top: 35px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  text-align: left;
+}
+
+/* product section three across */
+.citrusSpotlight__product {
+  margin-top: 58px;
+  margin-bottom: 37px;
+}
+.citrusSpotlight__productContainer {
+  width: 100%;
+  max-width: 1172px;
+  margin: auto;
+  overflow-x: auto;
+}
+.citrusSpotlight__row {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 20px;
+}
+.citrusSpotlight__card {
+  margin: auto;
+  width: 99%;
+  max-width: 100%;
+  background: #d9d9d9;
+  border: 2px solid #00205b;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.citrusSpotlight__card-img {
+  background: #fff;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.citrusSpotlight__card-img img {
+  width: 100%;
+  max-width: 140px;
+  object-fit: contain;
+}
+.citrusSpotlight__card-body {
+  margin: 32px 23px 14px;
+}
+.citrusSpotlight__card-body h3 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #000;
+}
+.citrusSpotlight__card-body p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000;
+}
+.citrusSpotlight__card-CTA {
+  margin-top: 17px;
+}
+.citrusSpotlight__card-CTA a {
+  display: block;
+  width: 210px;
+  height: 53px;
+  background: #001952;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-size: 16px;
+  line-height: 55px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #001952;
+  border-radius: 5px;
+  transition: background 1s ease;
+}
+.citrusSpotlight__card-CTA a:hover {
+  background: #fff;
+  color: #001952;
+}
+@media all and (min-width: 922px) and (max-width: 1100px) {
+  .spotlightLogo img {
+    width: 100%;
+    max-width: 190px;
+  }
+  .spotlightCopy h1 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .spotlightCopy h1 span {
+    font-size: 70px;
+    line-height: 78px;
+  }
+  .spotlightCopy p {
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .citrusSpotlight__disclaimer {
+    margin-top: 10px;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 921px) {
+  .citrusSpotlight__heroImage-copy {
+    top: 0;
+    align-items: flex-start;
+  }
+  .spotlightLogo img {
+    width: 100%;
+    max-width: 140px;
+  }
+  .spotlightCopy h1 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .spotlightCopy h1 span {
+    font-size: 50px;
+    line-height: 48px;
+  }
+  .spotlightCopy p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .citrusSpotlight__disclaimer {
+    margin-top: 10px;
+  }
+}
+@media all and (max-width: 768px) {
+  .citrusSpotlight__desktop-version {
+    display: none;
+  }
+  .citrusSpotlight__mobile-version {
+    display: block;
+  }
+  /* hero banner */
+  .citrusSpotlight__heroImage-copy {
+    top: 10%;
+    align-items: flex-start;
+  }
+  .spotlightCopy h1 {
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .spotlightCopy h1 span {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .spotlightCopy p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .hero-rightCTA a {
+    display: block;
+    width: max-content;
+    /* height: 50px; */
+    background: none;
+    line-height: 20px;
+    text-align: left;
+    color: #fff;
+    border: none;
+    text-decoration: underline;
+  }
+  .citrusSpotlight__disclaimer {
+    margin-top: 15px;
+  }
+  /* product */
+  .citrusSpotlight__card-body {
+    margin-left: 17px;
+  }
+  .citrusSpotlight__card {
+    margin: auto;
+    width: 361px;
+    max-width: 96%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .citrusSpotlight__card-CTA a {
+    width: max-content;
+    height: max-content;
+    background: none;
+    color: #001952;
+    line-height: 20px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: left;
+    border: none;
+  }
+  .citrusSpotlight__card-CTA a:hover {
+    background: none;
+    color: #001952;
+  }
+}
+
+@media all and (min-width: 476px) and (max-width: 768px) {
+  .spotlightCopy h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .spotlightCopy h1 span {
+    font-size: 80px;
+    line-height: 98px;
+  }
+  .spotlightCopy p {
+    margin-bottom: 10px;
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
