@@ -247,8 +247,8 @@ a:hover {
   justify-content: center;
 }
 .citrusSpotlight__sectionCTA a {
-  min-width: 170px;
-  line-height: 52px;
+  min-width: 169px;
+  line-height: 50px;
   background: #001952;
   font-family: "PetcoCircularTT-Bold", arial !important;
   font-size: 16px;
@@ -353,6 +353,11 @@ a:hover {
   line-height: 20px;
   font-weight: 400;
   text-align: left;
+}
+
+.citrusSpotlight__accordion-content .text-accordion .citrusSpotlight__sectionCTA{
+  justify-content: flex-start;
+  margin-top: 24px;
 }
 .citrusSpotlight__accordion-item.active .citrusSpotlight__accordion-content {
   height: max-content;
