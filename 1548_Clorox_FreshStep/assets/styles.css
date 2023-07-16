@@ -210,7 +210,7 @@ a:hover {
 .citrusClorox__disclaimer {
   font-size: 12px;
   line-height: 12px;
-  color: #00205b;
+  color: black;
   font-weight: 600;
   text-align: center;
 }
@@ -591,9 +591,13 @@ a:hover {
     text-align: center;
     /* top: 15%; */
   }
-  .citrusClorox__disclaimer.spotlightFaq-dis {
+  .citrusClorox__accordion-content .text-accordion .citrusClorox__sectionCTA {
+    justify-content: center;
+}
+  /* .citrusClorox__disclaimer.spotlightFaq-dis {
     padding-left: 10px;
-  }
+  } */
+
 }
 @media all and (max-width: 768px) {
   .citrusClorox__desktop-version {
