@@ -37,7 +37,7 @@ body {
   padding: 0px;
   font-family: "PetcoCircularTT-Regular", arial !important;
 }
-.citrusClorox__wrapper h1,
+h1,
 h2,
 h3,
 h4,
@@ -90,12 +90,12 @@ a:hover {
 .citrusClorox__mobile-version {
   display: none;
 }
-.citrusClorox__sectionTitle {
+/* .citrusClorox__sectionTitle {
   font-size: 20px;
   line-height: 25px;
   font-weight: 700;
   text-align: center;
-}
+} */
 
 /* hero banner */
 .citrusClorox__heroContainer {
@@ -128,12 +128,12 @@ a:hover {
   margin: auto;
   /* left: 30%; */
 }
-.spotlightLogo {
+.citrusClorox__freshStep_logo {
   justify-content: center;
   display: flex;
   align-items: center;
 }
-.spotlightLogo img {
+.citrusClorox__freshStep_logo img {
   width: 100%;
   max-width: 85%;
 }
@@ -143,10 +143,11 @@ a:hover {
   /* column-gap: 40px; */
   column-gap: 7%;
 }
-.spotlightCopy h1 {
+.citrusClorox__freshStep_copy h1 {
   color: #fff;
   font-size: 36px;
   font-weight: 900;
+  font-family: "PetcoCircularTT-Bold", arial !important;
 }
 
 .hero-cta {
@@ -175,7 +176,7 @@ a:hover {
   color: #00205b;
 }
 
-.spotlightCopy p {
+.citrusClorox__freshStep_copy p {
   font-size: 20px;
   font-weight: 500;
   line-height: 22px;
@@ -200,33 +201,6 @@ a:hover {
 }
 /* End hero banner */
 
-/* product scroller */
-
-.citrusClorox__sectionCTA {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.citrusClorox__sectionCTA a {
-  min-width: 169px;
-  line-height: 50px;
-  background: #001952;
-  font-family: "PetcoCircularTT-Bold", arial !important;
-  font-size: 16px;
-  font-weight: 900;
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-  border: 1px solid #001952;
-  border-radius: 7px;
-  transition: background-color 1s ease;
-}
-.citrusClorox__sectionCTA a:hover {
-  background: #fff;
-  color: #001952;
-}
-/* End product scroller */
-
 /* FAQ start */
 .citrusClorox__FAQ {
   width: 100%;
@@ -236,7 +210,7 @@ a:hover {
 }
 .citrusClorox__faqRow {
   display: grid;
-  grid-template-columns: 27% 70%;
+  grid-template-columns: 27% 73%;
   grid-gap: 30px;
   /* align-items: center; */
 }
@@ -246,7 +220,6 @@ a:hover {
   margin-bottom: 16px;
 }
 .citrusClorox__faqImage-box iframe {
-  /* object-fit: contain; */
   border-radius: 10px;
   height: 100%;
   width: 100%;
@@ -317,13 +290,16 @@ a:hover {
   line-height: 30px;
   font-weight: 900;
   color: #001952;
+  font-family: "PetcoCircularTT-Bold", arial !important;
 }
 .citrusClorox__faqTitle p {
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
   padding-bottom: 18px;
+  font-family: "PetcoCircularTT-Regular", arial !important;
 }
+
 /* accordion style */
 .citrusClorox__accordion {
   border: 1px solid #001952;
@@ -359,23 +335,23 @@ a:hover {
   line-height: 25px;
   font-weight: 700;
   color: #001952;
+  font-family: "PetcoCircularTT-Bold", arial !important;
 }
 
 .citrusClorox__accordion-content {
   padding: 0 10px 20px;
-  /* height: 50px; */
   display: flex;
   justify-content: space-between;
   white-space: normal;
-  /* overflow: hidden; */
-  /* text-overflow: ellipsis; */
   margin-bottom: 16px;
 }
+
 .citrusClorox__accordion-content p {
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
   text-align: left;
+  font-family: "PetcoCircularTT-Regular", arial !important;
 }
 
 #citrusClorox__sectionCTA_bleowParagraph {
@@ -388,10 +364,38 @@ a:hover {
   justify-content: flex-start;
   margin-top: 24px;
 }
+
 .citrusClorox__accordion-item.active .citrusClorox__accordion-content {
   height: max-content;
   margin-bottom: 10px;
 }
+
+/* FAQ CTA Start */
+.citrusClorox__sectionCTA {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.citrusClorox__sectionCTA a {
+  min-width: 169px;
+  line-height: 50px;
+  background: #001952;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #001952;
+  border-radius: 7px;
+  transition: background-color 1s ease;
+}
+
+.citrusClorox__sectionCTA a:hover {
+  background: #fff;
+  color: #001952;
+}
+/* End FAQ CTA */
 
 .citrusClorox__disclaimer.spotlightFaq-dis {
   margin-top: 20px;
@@ -401,48 +405,59 @@ a:hover {
   text-align: left;
 }
 
+/* ------------------------- */
+/** Responsive Style Start **/
+/* ------------------------- */
+
 @media screen and (min-width: 1101px) and (max-width: 1250px) {
-  .spotlightLogo img {
+  .citrusClorox__freshStep_logo img {
     max-width: 70%;
   }
 }
+
 @media all and (min-width: 922px) and (max-width: 1250px) {
-  .spotlightCopy h1 {
+  .citrusClorox__freshStep_copy h1 {
     font-size: 22px;
     line-height: 26px;
   }
 
-  .spotlightCopy p {
+  .citrusClorox__freshStep_copy p {
     margin-top: 10px;
     font-size: 17px;
     line-height: 17px;
     padding-top: 0;
     width: 85%;
   }
+
   .citrusClorox__FAQ {
     width: 94%;
   }
+
   .citrusClorox__faqleft_video {
     height: 315px;
   }
+
   .citrusClorox__frameImgText_copy {
     gap: 12px;
     width: 206px;
     margin-left: 35px;
   }
 }
+
 @media all and (min-width: 769px) and (max-width: 921px) {
   .citrusClorox__heroImage-copy {
-    /* width: 62%; */
     margin: auto 2%;
   }
+
   .citrusClorox__hero_details {
     width: 62%;
   }
-  .spotlightCopy h1 {
+
+  .citrusClorox__freshStep_copy h1 {
     font-size: 20px;
   }
-  .spotlightCopy p {
+
+  .citrusClorox__freshStep_copy p {
     margin-top: 10px;
     font-size: 14px;
     line-height: 17px;
@@ -450,13 +465,16 @@ a:hover {
     padding-top: 0;
     padding-bottom: 15px;
   }
-  .spotlightLogo {
+
+  .citrusClorox__freshStep_logo {
     width: 20%;
   }
+
   .hero-cta a {
     width: 140px;
     height: 40px;
   }
+
   /* faq section */
   .citrusClorox__faqRow {
     position: relative;
@@ -466,6 +484,7 @@ a:hover {
     padding: 0 10px;
     /* align-items: center; */
   }
+
   .citrusClorox__faqImage-box {
     text-align: center;
     justify-content: center;
@@ -473,6 +492,7 @@ a:hover {
     gap: 40px;
     margin-top: 10%;
   }
+
   .citrusClorox__faqTitle {
     position: absolute;
     top: 0;
@@ -481,20 +501,25 @@ a:hover {
     text-align: center;
     /* top: 15%; */
   }
+
   .citrusClorox__accordion-content .text-accordion .citrusClorox__sectionCTA {
     justify-content: center;
   }
+
   /* .citrusClorox__disclaimer.spotlightFaq-dis {
     padding-left: 10px;
   } */
 }
+
 @media all and (max-width: 768px) {
   .citrusClorox__desktop-version {
     display: none;
   }
+
   .citrusClorox__mobile-version {
     display: block;
   }
+
   .citrusClorox__sectionTitle,
   .citrusClorox__faqTitle h2 {
     font-size: 18px;
@@ -502,13 +527,16 @@ a:hover {
     line-height: 22px;
     padding: 20px 0;
   }
+
   /* hero banner */
   .citrusClorox__heroContainer {
     border: 5px solid #00205b;
   }
+
   .citrusClorox__heroImage-box img {
     padding-top: 50%;
   }
+
   .citrusClorox__heroImage-copy {
     width: 90%;
     margin: auto 5%;
@@ -518,23 +546,28 @@ a:hover {
     position: absolute;
     top: 12%;
   }
+
   .hero-left {
     column-gap: 0px;
   }
-  .spotlightCopy h1 {
+
+  .citrusClorox__freshStep_copy h1 {
     font-size: 18px;
     margin-bottom: 10px;
   }
-  .spotlightCopy p {
+
+  .citrusClorox__freshStep_copy p {
     margin-top: 10px;
     font-size: 14px;
     line-height: 17px;
     margin-bottom: 15px;
   }
+
   .hero-cta {
     max-width: fit-content;
     margin: auto;
   }
+
   .hero-cta a {
     min-width: max-content;
     font-size: 16px;
@@ -550,6 +583,7 @@ a:hover {
     width: 100%;
     justify-content: center;
   }
+
   #citrusClorox__newAtPetco_badge {
     position: absolute;
     width: 15%;
@@ -557,13 +591,16 @@ a:hover {
     left: 40%;
     top: 55%;
   }
+
   .citrusClorox__disclaimer.hero {
     color: #fff;
   }
+
   .hero-cta a:hover {
     background: none;
     color: #fff;
   }
+
   /* faq section */
   .citrusClorox__FAQ {
     padding-top: 0;
@@ -578,6 +615,7 @@ a:hover {
     padding: 0 0;
     margin: auto;
   }
+
   .citrusClorox__faqImage-box {
     display: flex;
     flex-direction: row;
@@ -595,6 +633,7 @@ a:hover {
     margin: auto;
     text-align: center;
   }
+
   .citrusClorox__disclaimer.spotlightFaq-dis {
     margin-top: 10px;
   }
@@ -603,12 +642,15 @@ a:hover {
   .citrusClorox__accordion-item {
     padding: 0 10px;
   }
+
   #citrusClorox__accordion_powerful_30-day {
     border-top: 1px solid #001952;
   }
+
   .citrusClorox__accordion-content .text-accordion .citrusClorox__sectionCTA {
     justify-content: center;
   }
+
   .citrusClorox__sectionCTA a {
     min-width: max-content;
     line-height: 32px;
@@ -625,15 +667,18 @@ a:hover {
   .citrusClorox__heroImage-copy .citrusClorox__mobile-version {
     display: none;
   }
+
   .citrusClorox__heroImage-copy {
     width: 90%;
     margin: auto 5%;
   }
-  .spotlightCopy h1 {
+
+  .citrusClorox__freshStep_copy h1 {
     font-size: 45px;
     line-height: 45px;
   }
-  .spotlightCopy p {
+
+  .citrusClorox__freshStep_copy p {
     margin-top: 10px;
     font-size: 24px;
     line-height: 28px;
@@ -646,6 +691,7 @@ a:hover {
     margin: auto;
     overflow: auto;
   }
+
   .citrusClorox__faqImage-box {
     width: 650px;
     display: flex;
@@ -662,11 +708,13 @@ a:hover {
     padding-top: 0;
     margin: auto;
   }
+
   .citrusClorox__faqLeft {
     width: 600px;
     margin: auto;
     max-width: 100%;
   }
+
   .citrusClorox__faqleft_container {
     margin: auto;
     overflow: auto;
@@ -681,59 +729,73 @@ a:hover {
     margin-top: 35%;
     padding-left: 20px;
   }
+
   .citrusClorox__faqleft_video {
-    width: 245px;
+    width: 235px;
     height: 256px;
     margin-bottom: 16px;
   }
+
   .citrusClorox__faqImage-box img {
-    max-width: unset;
+    /* max-width: unset; */
+    object-fit: fill;
     max-height: 256px;
+    width: 262px;
   }
+
   .citrusClorox__frameImgText_copy {
     gap: 16px;
     width: 259px;
     margin-left: 100px;
   }
+
   .citrusClorox__frameImgText_copy_img img {
     max-width: 37px;
     height: 37px;
-    padding-right: 4px;
+    /* padding-right: 4px; */
   }
+
   .citrusClorox__frameImgText_copy_details h4 {
     font-size: 12px;
   }
+
   .citrusClorox__frameImgText_copy_details p {
     width: 184px;
     font-size: 10px;
   }
+
   .citrusClorox__sectionTitle,
   .citrusClorox__faqTitle h2 {
     width: 200px;
     margin: auto;
   }
 }
+
 @media screen and (max-width: 425px) {
   /* hero banner */
   .citrusClorox__heroImage-copy {
     top: 8%;
   }
-  .spotlightCopy h1 {
+
+  .citrusClorox__freshStep_copy h1 {
     font-size: 30px;
   }
-  .spotlightCopy p {
+
+  .citrusClorox__freshStep_copy p {
     font-size: 16px;
     line-height: 18px;
     width: 255px;
     margin: auto;
     padding-top: 0;
   }
+
   .citrusClorox__faqTitle {
     width: 100%;
     margin: auto;
     text-align: center;
     /* top: 15%; */
   }
+
   /* FAQ */
   .citrusClorox__faqTitle p {
     width: 335px;
@@ -745,13 +807,23 @@ a:hover {
   .citrusClorox__heroImage-copy {
     top: 5%;
   }
+
   /* FAQ */
   .citrusClorox__faqImage-box {
     width: 600px;
     margin-top: 40%;
     padding-left: 20px;
   }
+
   .citrusClorox__faqleft_video {
     height: 257px;
   }
+
+  /* .citrusClorox__frameImgText_copy {
+    margin-left: 80px;
+  }
+
+  .citrusClorox__frameImgText_copy_img img {
+    padding-right: 10px;
+  } */
 }
