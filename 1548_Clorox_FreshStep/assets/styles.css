@@ -302,7 +302,8 @@ a:hover {
 
 /* accordion style */
 .citrusClorox__accordion {
-  border: 1px solid #001952;
+  /* border: 1px solid #001952; */
+  border: 1px solid #c1c1c1;
   border-left: none;
   border-right: none;
   border-radius: 0px;
@@ -311,11 +312,8 @@ a:hover {
 }
 
 .citrusClorox__accordion-item {
-  border-top: 1px solid #001952;
-}
-
-#citrusClorox__accordion_powerful_30-day {
-  border-top: 0;
+  /* border-top: 1px solid #001952; */
+  border-top: 1px solid #c1c1c1;
 }
 
 .citrusClorox__accordion-item:first-child {
@@ -358,6 +356,12 @@ a:hover {
   margin-top: 24px;
   font-size: 12px;
   font-family: "PetcoCircularTT-Regular", arial !important;
+}
+
+#citrusClorox__sectionCTA_bleowParagraph b {
+  font-weight: 900;
+  font-size: 13.5px;
+  font-family: "PetcoCircularTT-Bold", arial !important;
 }
 
 .citrusClorox__accordion-content .text-accordion .citrusClorox__sectionCTA {
@@ -522,7 +526,7 @@ a:hover {
 
   .citrusClorox__sectionTitle,
   .citrusClorox__faqTitle h2 {
-    font-size: 18px;
+    font-size: 24px;
     margin: auto;
     line-height: 22px;
     padding: 20px 0;
@@ -641,10 +645,6 @@ a:hover {
   /* section cta style */
   .citrusClorox__accordion-item {
     padding: 0 10px;
-  }
-
-  #citrusClorox__accordion_powerful_30-day {
-    border-top: 1px solid #001952;
   }
 
   .citrusClorox__accordion-content .text-accordion .citrusClorox__sectionCTA {
@@ -766,6 +766,7 @@ a:hover {
 
   .citrusClorox__sectionTitle,
   .citrusClorox__faqTitle h2 {
+    font-size: 18px;
     width: 200px;
     margin: auto;
   }
