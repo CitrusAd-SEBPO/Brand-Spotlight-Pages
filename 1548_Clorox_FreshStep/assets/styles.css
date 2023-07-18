@@ -29,14 +29,15 @@
 header img,
 footer img {
   width: 100%;
-  /* max-width: 1440px; */
   margin: auto;
 }
+
 body {
   margin: 0px;
   padding: 0px;
   font-family: "PetcoCircularTT-Regular", arial !important;
 }
+
 h1,
 h2,
 h3,
@@ -49,6 +50,7 @@ h6 {
   line-height: initial;
   color: #000;
 }
+
 .citrusClorox__wrapper p {
   margin: 0;
   padding: 0;
@@ -56,11 +58,13 @@ h6 {
   line-height: initial;
   color: #000;
 }
+
 .citrusClorox__wrapper a {
   font-family: "PetcoCircularTT-Regular", arial !important;
   text-decoration: none;
   color: #000;
 }
+
 a:hover {
   text-decoration: none;
 }
@@ -84,18 +88,14 @@ a:hover {
   max-width: 1440px;
   margin: auto;
 }
+
 .citrusClorox__desktop-version {
   display: block;
 }
+
 .citrusClorox__mobile-version {
   display: none;
 }
-/* .citrusClorox__sectionTitle {
-  font-size: 20px;
-  line-height: 25px;
-  font-weight: 700;
-  text-align: center;
-} */
 
 /* hero banner */
 .citrusClorox__heroContainer {
@@ -105,18 +105,20 @@ a:hover {
   align-items: center;
   background-color: #00205b;
 }
+
 .citrusClorox__heroImage-box img {
   width: 100%;
   max-width: 1440px;
   object-fit: cover;
 }
+
 #citrusClorox__newAtPetco_badge {
   position: absolute;
   width: 7%;
-  /* height: auto; */
   right: 16%;
   top: 5%;
 }
+
 .citrusClorox__heroImage-copy {
   position: absolute;
   width: 40%;
@@ -126,23 +128,25 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  /* left: 30%; */
 }
+
 .citrusClorox__freshStep_logo {
   justify-content: center;
   display: flex;
   align-items: center;
 }
+
 .citrusClorox__freshStep_logo img {
   width: 100%;
   max-width: 85%;
 }
+
 .hero-left {
   display: flex;
   align-items: center;
-  /* column-gap: 40px; */
   column-gap: 7%;
 }
+
 .citrusClorox__freshStep_copy h1 {
   color: #fff;
   font-size: 36px;
@@ -167,10 +171,10 @@ a:hover {
   background: white;
   border: 1px solid #00205b;
   border-radius: 7px;
-  /* padding: 18px 30px; */
   text-transform: uppercase;
   transition: background-color 1s ease;
 }
+
 .hero-cta a:hover {
   background: #f8f6f6;
   color: #00205b;
@@ -186,9 +190,11 @@ a:hover {
   padding-bottom: 25px;
   width: 375px;
 }
+
 .hero-rightCTA {
   text-align: center;
 }
+
 .citrusClorox__disclaimer {
   font-size: 12px;
   line-height: 12px;
@@ -196,6 +202,7 @@ a:hover {
   font-weight: 600;
   text-align: center;
 }
+
 .citrusClorox__disclaimer.hero {
   padding-top: 10px;
 }
@@ -208,22 +215,25 @@ a:hover {
   margin: 0px auto 30px;
   padding-top: 30px;
 }
+
 .citrusClorox__faqRow {
   display: grid;
   grid-template-columns: 27% 73%;
   grid-gap: 30px;
-  /* align-items: center; */
 }
+
 .citrusClorox__faqleft_video {
   width: 313px;
   height: 356px;
   margin-bottom: 16px;
 }
+
 .citrusClorox__faqImage-box iframe {
   border-radius: 10px;
   height: 100%;
   width: 100%;
 }
+
 .citrusClorox__frameText_container,
 .citrusClorox__frameText_row {
   position: relative;
@@ -231,14 +241,14 @@ a:hover {
   justify-content: center;
   align-items: center;
   max-width: 313px;
-  /* height: 356px; */
 }
+
 .citrusClorox__faqImage-box img {
   margin-bottom: 16px;
   max-width: 100%;
   object-fit: contain;
-  /* max-height: 256px; */
 }
+
 .citrusClorox__frameImgText_copy {
   position: absolute;
   display: grid;
@@ -247,34 +257,42 @@ a:hover {
   width: 245px;
   margin-left: 35px;
 }
+
 .citrusClorox__frameImgText_copy_item {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .citrusClorox__frameImgText_copy_img img {
   max-width: 56px;
   height: 56px;
   margin: 0;
   padding-right: 15px;
 }
+
 .citrusClorox__frameImgText_copy_details h4 {
   font-weight: 900;
   font-size: 14px;
   font-family: "PetcoCircularTT-Bold", arial !important;
 }
+
 #citrusClorox__orange {
   color: #eb9653;
 }
+
 #citrusClorox__green {
   color: #6ba500;
 }
+
 #citrusClorox__blue {
   color: #4a72ae;
 }
+
 #citrusClorox__pink {
   color: #f44696;
 }
+
 .citrusClorox__frameImgText_copy_details p {
   padding: 5px 0;
   font-family: "PetcoCircularTT-Regular", arial !important;
@@ -282,9 +300,7 @@ a:hover {
   color: black;
   font-size: 12px;
 }
-/* .citrusClorox__faqRight {
-  margin-top: 32px;
-} */
+
 .citrusClorox__faqTitle h2 {
   font-size: 24px;
   line-height: 30px;
@@ -292,6 +308,7 @@ a:hover {
   color: #001952;
   font-family: "PetcoCircularTT-Bold", arial !important;
 }
+
 .citrusClorox__faqTitle p {
   font-size: 16px;
   line-height: 20px;
@@ -302,7 +319,6 @@ a:hover {
 
 /* accordion style */
 .citrusClorox__accordion {
-  /* border: 1px solid #001952; */
   border: 1px solid #c1c1c1;
   border-left: none;
   border-right: none;
@@ -312,7 +328,6 @@ a:hover {
 }
 
 .citrusClorox__accordion-item {
-  /* border-top: 1px solid #001952; */
   border-top: 1px solid #c1c1c1;
 }
 
@@ -326,8 +341,8 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* line-height: 62px; */
 }
+
 .citrusClorox__accordion-title h3 {
   font-size: 20px;
   line-height: 25px;
@@ -380,6 +395,7 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
+
 .citrusClorox__sectionCTA a {
   min-width: 169px;
   line-height: 50px;
@@ -486,7 +502,6 @@ a:hover {
     grid-template-columns: 100%;
     grid-gap: 0px;
     padding: 0 10px;
-    /* align-items: center; */
   }
 
   .citrusClorox__faqImage-box {
@@ -503,16 +518,11 @@ a:hover {
     width: 100%;
     margin: auto;
     text-align: center;
-    /* top: 15%; */
   }
 
   .citrusClorox__accordion-content .text-accordion .citrusClorox__sectionCTA {
     justify-content: center;
   }
-
-  /* .citrusClorox__disclaimer.spotlightFaq-dis {
-    padding-left: 10px;
-  } */
 }
 
 @media all and (max-width: 768px) {
@@ -591,7 +601,6 @@ a:hover {
   #citrusClorox__newAtPetco_badge {
     position: absolute;
     width: 15%;
-    /* height: auto; */
     left: 40%;
     top: 55%;
   }
@@ -737,7 +746,6 @@ a:hover {
   }
 
   .citrusClorox__faqImage-box img {
-    /* max-width: unset; */
     object-fit: fill;
     max-height: 256px;
     width: 262px;
@@ -752,7 +760,6 @@ a:hover {
   .citrusClorox__frameImgText_copy_img img {
     max-width: 37px;
     height: 37px;
-    /* padding-right: 4px; */
   }
 
   .citrusClorox__frameImgText_copy_details h4 {
@@ -794,7 +801,6 @@ a:hover {
     width: 100%;
     margin: auto;
     text-align: center;
-    /* top: 15%; */
   }
 
   /* FAQ */
@@ -819,12 +825,4 @@ a:hover {
   .citrusClorox__faqleft_video {
     height: 257px;
   }
-
-  /* .citrusClorox__frameImgText_copy {
-    margin-left: 80px;
-  }
-
-  .citrusClorox__frameImgText_copy_img img {
-    padding-right: 10px;
-  } */
 }
