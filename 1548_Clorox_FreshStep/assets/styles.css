@@ -26,12 +26,6 @@
 }
 
 /* default css */
-header img,
-footer img {
-  width: 100%;
-  margin: auto;
-}
-
 body {
   margin: 0px;
   padding: 0px;
@@ -759,7 +753,8 @@ a:hover {
 
   .citrusClorox__frameImgText_copy_img img {
     max-width: 37px;
-    height: 37px;
+    /* height: 37px; */
+    height: 100%;
   }
 
   .citrusClorox__frameImgText_copy_details h4 {
